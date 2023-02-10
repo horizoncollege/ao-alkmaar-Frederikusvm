@@ -3,25 +3,33 @@
 <head>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="galgjestyle.css?<?php echo time();?>">
   <title>Galgje</title>
 </head>
 <body>
 
-<h2>Hangman: browser edition</h2>
-<h5>The rules are the same as regular hangman.</h5>
-<h5>The player gets nine turns to guess the word.</h5>
-
-<div class='selection'>
-Do you want to choose your own word or generate a random word?
-<form action="chosen.php" method="get">
-  <input type="radio" name="method" value="manual" id="manual"><label for="manual"> Manual</label><br>
-  <input type="radio" name="method" value="auto" id="auto"><label for="auto"> Auto generate</label><br>
-  <input type="submit" value="Select">
-</form>
+<div class="headerdiv">
+  <h2>Welkom bij Galgje.</h2>
+  <h3>U heeft negen beurten om het woord te raden. De willekeurige woorden zijn in het Engels.</h3>
 </div>
 
+<div class="mainvlak">
+
+<div class='selectietekst'>
+
+  <p>Wil U zelf een woord invullen of een willekeurig woord proberen te raden?</p>
+    <form action="chosen.php" method="get">
+      <input type="radio" name="method" value="manual" id="manual"><label for="manual"> Eigen woord</label><br>
+      <input type="radio" name="method" value="auto" id="auto"><label for="auto"> willekeurig</label><br>
+      <input type="submit" value="Speel">
+    </form>
+</div>
+
+<div class="afbeelding">
+  <img src="../../images/galgje.png">
+</div>
+
+</div>
 
 </body>
 </html>

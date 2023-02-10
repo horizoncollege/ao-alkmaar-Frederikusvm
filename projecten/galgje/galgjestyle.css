@@ -1,0 +1,44 @@
+body {
+    margin:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+h2, h3 {
+    font-weight: normal;
+}
+
+h5, p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.headerdiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainvlak {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.selectietekst {
+    margin-top: 2rem;
+}
+
+.selectietekst form {
+    margin-top: -10px;
+}  
+
+.afbeelding img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 6rem;
+}

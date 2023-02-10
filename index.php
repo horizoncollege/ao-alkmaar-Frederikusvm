@@ -19,7 +19,7 @@
     <div class="applicationsgrid">
         
         <div class="applicationimage">
-            <a href="./projecten/galgje/index.php"><img src="./images/galgje.png"></a>
+            <a href="./projecten/galgje/index.php" target="_blank"><img src="./images/galgje.png"></a>
         </div>
 
     </div>
