@@ -38,6 +38,8 @@ h2 {
     color: white;
     background-color: crimson;
     padding: 0.4rem;
+    width: 100%;
+    text-align: center;
 }
 
 .applicatieafbeelding {
