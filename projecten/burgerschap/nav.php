@@ -17,12 +17,12 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="over-ons.php">Over Ons</a></li>
-        <li><a href="Standpunten.php">Standpunten</a></li>
+        <li><a href="standpunten.php">Standpunten</a></li>
         
       </ul>
       <ul class="nav navbar-nav navbar-right">
       <li><a href="contact.php">Contact</a></li>
-        <li><a href="Lid-worden.php">Lid Worden</a></li>
+        <li><a href="lid-worden.php">Lid Worden</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
