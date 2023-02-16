@@ -23,11 +23,24 @@ body {
 
 .grid {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .applicatievlak {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+h2 {
+    color: white;
+    background-color: crimson;
+    padding: 0.4rem;
+}
+
+.applicatieafbeelding {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +48,6 @@ body {
     height: 250px;
     border-radius: 75px;
     margin-top: 50px;
-    margin-left: 50px;
 }
 
 #galgje {
