@@ -35,11 +35,15 @@ body {
 }
 
 h2 {
-    color: white;
     background-color: crimson;
     padding: 0.4rem;
     width: 100%;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .applicatieafbeelding {
