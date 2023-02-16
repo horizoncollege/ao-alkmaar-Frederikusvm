@@ -1,9 +1,13 @@
+/* Zorgt ervoor dat de titelbalk bovenaan staat en zet het lettertype op Arial */
+
 body {
     margin: 0 auto;
     top: 0;
     z-index: 100;
     font-family:Arial, Helvetica, sans-serif;
 }
+
+/* Hieronder de CSS voor de titelbalk */
 
 #dashboard {
     background-color:crimson;
@@ -20,6 +24,8 @@ body {
 #dashboard h1 {
     padding-top: 40px;
 }
+
+/* De css voor de flexboxcontainer en de links naar de projecten */
 
 .grid {
     display: flex;
@@ -56,6 +62,8 @@ a {
     margin-top: 50px;
 }
 
+/* Kleurenachtergronden voor de links */
+
 #galgje {
     background-color: rgba(251, 230, 168, 0.495);
 }
@@ -77,6 +85,8 @@ img {
     height: 200px;
     border-radius: 50px;
 }
+
+/* Laat de afbeeldingen vergroten indien U er met de muis overheen gaat*/
 
 img:hover {
     transform: scale(1.09);
