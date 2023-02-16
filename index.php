@@ -19,15 +19,19 @@
     <div class="grid">
 
         <div class="applicatievlak" id="galgje">
-           <a href="./projecten/galgje/index.php" target="_blank"><img src="./images/galgje.png"></a>
+           <a href="./projecten/galgje/index.php" target="_blank"><img src="./images/galgje.png" title="galgje"></a>
         </div>
 
         <div class="applicatievlak" id="steenpapierschaar">
-            <a href="./projecten/steenpapierschaar/index.html" target="_blank"><img src="./images/sps.png"></a>
+            <a href="./projecten/steenpapierschaar/index.html" target="_blank" title="Steen, papier schaar"><img src="./images/sps.png"></a>
+        </div>
+
+        <div class="applicatievlak" id="burgerschap">
+            <a href="./projecten/burgerschap/index.php" target="_blank" title="burgerschap"><img src="./images/burgerschap.png"></a>
         </div>
 
         <div class="applicatievlak" id="overmij">
-            <a href="./projecten/overmij/index.html" target="_blank"><img src="./images/person.png"></a>
+            <a href="./projecten/overmij/index.html" target="_blank" title="Overmij"><img src="./images/person.png"></a>
         </div>
 
     </div>
