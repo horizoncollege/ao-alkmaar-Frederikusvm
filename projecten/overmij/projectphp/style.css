@@ -1,0 +1,136 @@
+body {
+    background-color: red;
+}
+
+.headbar {
+    background-color: #222;
+    height: 60px;
+    box-shadow: 0 1px 4px rgb(0, 0, 0, 0.4);
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222;
+    height: 60px;
+    width: 400px;
+    float: right;  
+    margin-right: 40px;
+}
+
+.active {
+    text-decoration: underline 2px;
+}
+
+.headbar h1 a {
+    color: #eee;
+    font-size: 20px;
+}
+
+#barimg {
+	object-fit: scale-down;
+    height: 6.7rem;
+    margin-left: 40px;
+}
+
+#home {
+    color: white;
+}
+
+#opl {
+    color: white;
+}
+
+#pers {
+    color: white;
+}
+
+#cont {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.audiobar {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.imagerow {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap row;
+    margin-top: 40px;
+}
+
+.imagerow > img {
+    max-height: 250px;
+    width: auto;
+    padding: 5px;
+}
+
+.imagerow img:hover {
+    transform: scale(1.09);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+    column-gap: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.textcontainer .secondbox {
+    margin-top: 10px;
+}
+
+.firstbox {
+    height: auto;
+    width: 750px;
+    padding: 10px;
+
+    border: transparent 3px;
+    border-left: lightskyblue solid 3px;
+    background-color: red;
+}
+
+.secondbox {
+    height: auto;
+    width: 750px;
+    padding: 10px;
+
+    border: transparent 3px;
+    border-left: lightskyblue solid 3px;
+    background-color: white;
+   
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    align-items: center;
+    margin-top: 75px;
+    background-color: #222;
+    height: 120px;
+}
+
+.footer > a {
+    color: #eee;
+}
+
+#endimg {
+    object-fit: scale-down;
+    height: 6rem
+}
+
+#copyright {
+    color: #eee;
+    font-size: 20px;
+}

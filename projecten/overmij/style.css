@@ -1,0 +1,201 @@
+body {
+    background-color: white;
+}
+
+/* The items below are used in the header bar */
+
+.headbar {
+    background-color: #222;
+    height: 60px;
+    box-shadow: 0 1px 4px rgb(0, 0, 0, 0.4);
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222;
+    height: 60px;
+    width: 400px;
+    float: right;  
+    margin-right: 40px;
+}
+
+.active {
+    text-decoration: underline 2px;
+}
+
+.headbar h1 a {
+    color: #eee;
+    font-size: 20px;
+}
+
+#barimg {
+	object-fit: scale-down;
+    height: 6.7rem;
+    margin-left: 40px;
+}
+
+#home {
+    color: white;
+}
+
+#opl {
+    color: white;
+}
+
+#pers {
+    color: white;
+}
+
+#cont {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* The items below are used on the index page and the opleiding page  */
+
+.imagerow {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap row;
+    margin-top: 40px;
+}
+
+.imagerow > img {
+    max-height: 250px;
+    width: auto;
+    padding: 5px;
+}
+
+.imagerow img:hover {
+    transform: scale(1.09);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+    column-gap: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    flex-shrink: 2;
+}
+.textcontainer .secondtext {
+    margin-top: 10px;
+}
+
+.firsttext {
+    height: auto;
+    width: 750px;
+    padding: 10px;
+
+    border: transparent 3px;
+    border-left: lightskyblue solid 3px;
+    background-color: white;
+}
+
+/* There's a second text div to prevent the left border from forming a singular line */
+
+.secondtext {
+    height: auto;
+    width: 750px;
+    padding: 10px;
+
+    border: transparent 3px;
+    border-left: lightskyblue solid 3px;
+    background-color: white;
+   
+}
+
+/* The items below are used on the persoonlijk page */
+
+.columns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.columnrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 200px;
+    max-width: 800px;
+}
+
+.columnrowtextright {
+    display: flex;
+    flex-direction: column;
+    border: transparent 3px;
+    border-right: lightskyblue solid 3px;
+    padding-right: 0.5rem;
+    background-color: white;
+}
+
+.columnrowtextleft {
+    display: flex;
+    flex-direction: column;
+    border: transparent 3px;
+    border-left: lightskyblue solid 3px;
+    padding-left: 0.5rem;
+    background-color: white;
+}
+
+.columnrow > img {
+    max-height: 240px;
+    padding: 20px;
+}
+
+.columnrow > h2 {
+    max-width: 600px;
+}
+
+/* the items below are used on the contact page*/
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+   
+    padding: 0;
+    margin: 0;
+}
+
+.flex-item:last-child {
+    background: tomato;
+    padding: 5px;
+    width: 400px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+/* The items below are used in the footer bar */
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    align-items: center;
+    margin-top: 75px;
+    background-color: #222;
+    height: 120px;
+}
+
+.footer > a {
+    color: #eee;
+}
+
+#copyright {
+    color: #eee;
+    font-size: 20px;
+}

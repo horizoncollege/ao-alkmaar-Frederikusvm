@@ -16,10 +16,18 @@
         <p>Dankuwel voor Uw bezoek</p>
     </div>
 
-    <div class="applicationsgrid">
-        
-        <div class="applicationimage">
-            <a href="./projecten/galgje/index.php" target="_blank"><img src="./images/galgje.png"></a>
+    <div class="grid">
+
+        <div class="applicatievlak" id="galgje">
+           <a href="./projecten/galgje/index.php" target="_blank"><img src="./images/galgje.png"></a>
+        </div>
+
+        <div class="applicatievlak" id="steenpapierschaar">
+            <a href="./projecten/steenpapierschaar/index.html" target="_blank"><img src="./images/sps.png"></a>
+        </div>
+
+        <div class="applicatievlak" id="overmij">
+            <a href="./projecten/overmij/index.html" target="_blank"><img src="./images/person.png"></a>
         </div>
 
     </div>

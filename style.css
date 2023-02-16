@@ -21,12 +21,16 @@ body {
     padding-top: 40px;
 }
 
-.applicationsgrid {
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.applicatievlak {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    background-color: rgba(251, 230, 168, 0.495);
     width: 250px;
     height: 250px;
     border-radius: 75px;
@@ -34,8 +38,25 @@ body {
     margin-left: 50px;
 }
 
-.applicationsgrid img {
+#galgje {
+    background-color: rgba(251, 230, 168, 0.495);
+}
+
+#steenpapierschaar {
+    background-color: rgba(179, 229, 229, 0.495);
+}
+
+#overmij {
+    background-color: rgba(220, 20, 60, 0.495);
+}
+
+img {
     width: 200px;
     height: 200px;
     border-radius: 50px;
+}
+
+img:hover {
+    transform: scale(1.09);
+    transition: all 0.3s ease-in-out 0s;
 }

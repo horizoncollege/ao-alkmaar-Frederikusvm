@@ -20,7 +20,7 @@
   <p>Wil U zelf een woord invullen of een willekeurig woord proberen te raden?</p>
     <form action="chosen.php" method="get">
       <input type="radio" name="method" value="manual" id="manual"><label for="manual"> Eigen woord</label><br>
-      <input type="radio" name="method" value="auto" id="auto"><label for="auto"> willekeurig</label><br>
+      <input type="radio" name="method" value="auto" id="auto"><label for="auto"> Willekeurig</label><br>
       <input type="submit" value="Speel">
     </form>
 </div>
