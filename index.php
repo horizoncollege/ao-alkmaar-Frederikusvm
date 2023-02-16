@@ -15,7 +15,7 @@
     <div id="dashboard">
         <h1>Welkom op het projectendashboard</h1>
         <p>Hierop kunt U de projecten gemaakt door Frederikus van Miert gedurende zijn opleiding zien</p>
-        <p>Wanneer U op de afbeeldingen klikt komt U op de pagina van dat project terecht</p>
+        <p>Wanneer U op een afbeelding klikt komt U op de pagina van dat project terecht</p>
         <p>Hartelijk bedankt voor Uw bezoek!</p>
     </div>
 
